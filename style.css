@@ -22,6 +22,7 @@ body {
     height: 80vh;
     display: flex;
     box-shadow:  5px 5px 10px #000000;
+    border-color: #FFF;
 }
 
 .form-image {
@@ -29,7 +30,7 @@ body {
     display: flex;
     justify-items: center;
     align-items: center;
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.851);
     padding: 1rem;
 }
 
@@ -138,11 +139,11 @@ body {
     margin-right:0.35rem;
 }
 
-.gender-unput label {
+.gender-input label {
     font-size: 0.81rem;
     font-weight: 600;
-    color: #000000;
-    font-family: 'Bungee Spice', cursive;
+    color: #ffffff;
+    margin: 1.1rem ;
 }
 
 .continue-button button {
