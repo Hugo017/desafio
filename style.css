@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
+    color: rgb(183, 249, 68);
 }
 
 body {
@@ -11,7 +13,8 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(136, 217, 236);
+    background-color: rgb(125, 0, 0);
+    background-image: url(img2/galaxia.jpg);
 }
 
 .container {
@@ -40,6 +43,8 @@ body {
     padding: 5rem;
     flex-direction: column;
     background-color: rgb(228, 147, 147);
+    background-image: url(img2/fundo3.jpg);
+    background-size: 100%;
 }
 .form-header {
     margin-bottom: 3rem;
@@ -63,7 +68,7 @@ body {
 .login-button button a {
     text-decoration: none;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .form-header h1::after {
     content: '';
@@ -107,9 +112,10 @@ body {
 
 .input-box label,
 .gender-title h6 {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #000000;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .input-box input::placeholder {
@@ -136,6 +142,7 @@ body {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .continue-button button {
@@ -159,8 +166,18 @@ body {
     font-weight: 500;
     color: #FFF;
 }
-
-@media screen and (max-width: 450px) {
+@media  screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1064px) {
     .container{
         width: 90%;
         height: auto;
